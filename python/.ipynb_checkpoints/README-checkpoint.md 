@@ -1,0 +1,24 @@
+# Python Scripts for ODE/PDE Numerical Methods
+
+This folder contains Python implementations for several classic ODE/PDE test problems and their solvers:
+
+- **euler_logistic_compare.py**  
+  Explicit Euler method for the logistic growth IVP. Compares with the exact solution for various time steps.
+
+- **symplectic_euler_oscillator.py**  
+  Symplectic (semi-implicit) Euler method for the forced oscillator problem. Plots position and velocity vs. time.
+
+- **cg_laplace_compare.py**  
+  Conjugate Gradient method for large SPD systems arising from the 2D Laplacian, with and without incomplete Cholesky preconditioning. Plots convergence history.
+
+- **gmres_test.py**  
+  GMRES with restarts for unsymmetric systems, including tests with and without ILU preconditioning. Prints iteration statistics for various restart values.
+
+**Dependencies:**  
+- numpy  
+- scipy  
+- matplotlib
+
+Install them via:
+```bash
+pip install numpy scipy matplotlib

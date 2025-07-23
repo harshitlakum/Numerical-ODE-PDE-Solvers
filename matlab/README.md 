@@ -1,0 +1,21 @@
+# MATLAB Scripts for ODE/PDE Numerical Methods
+
+This folder contains MATLAB implementations for classic ODE/PDE problems and their solvers:
+
+- **euler_logistic_compare.m**  
+  Explicit Euler method for the logistic growth IVP. Compares to exact solution for various time steps.
+
+- **symplectic_euler_oscillator.m**  
+  Semi-implicit (symplectic) Euler method for the forced oscillator problem. Plots position and velocity vs. time.
+
+- **cg_laplace_compare.m**  
+  Conjugate Gradient for large SPD systems from the 2D Laplacian, with and without incomplete Cholesky preconditioning. Plots convergence.
+
+- **gmres_test.m**  
+  Restarted GMRES for unsymmetric systems, including tests with and without ILU preconditioning. Prints iteration statistics for various restart values.
+
+**How to run:**  
+- Open any `.m` file in MATLAB and run, e.g.:
+  ```matlab
+  euler_logistic_compare
+  gmres_test    % for the GMRES test (call as a function)
