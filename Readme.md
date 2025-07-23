@@ -42,7 +42,7 @@ Numerical-ODE-PDE-Solvers/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Numerical-ODE-PDE-Solvers.git
+git clone https://github.com/harshitlakum/Numerical-ODE-PDE-Solvers.git
 cd Numerical-ODE-PDE-Solvers
 
 
